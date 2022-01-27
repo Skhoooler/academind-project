@@ -1,1 +1,1 @@
-https://git.heroku.com/radiant-shelf-19477.git
+doria-web-backend-dev-2.herokuapp.com
