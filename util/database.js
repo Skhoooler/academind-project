@@ -1,9 +1,10 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
+const express = require('express');
 const cors = require('cors');
 
 let _db;
-
+const app = express();
 
 /* Not Part of Academind. This is for Heroku */
 const MONGODB_URL = process.env.MONGODB_URL || 'mongodb+srv://Skhoooler:347821597dD@backend-web-dev-ii.zxs2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
@@ -17,8 +18,8 @@ app.use(cors(corsOptions));
 const options = {
   useUnifiedTopology: true,
   useNewUrlParser: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
+  // useCreateIndex: true,
+  // useFindAndModify: false,
   family: 4
 };
 /* Not Part of Academind. This is for Heroku */
