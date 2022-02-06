@@ -1,3 +1,0 @@
-doria-web-backend-dev-2.herokuapp.com
-
-'mongodb+srv://Skhoooler:347821597dD@backend-web-dev-ii.zxs2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
